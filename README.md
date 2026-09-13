@@ -44,7 +44,7 @@ Here is an overview of the firewall filter rules providing perimeter protection 
 
 Disabled high-risk, unencrypted, and unnecessary management services to minimize the router's attack surface:
 
-* **Disabled Services**: Telnet (23), FTP (21), SSH (22), API / API-SSL (8728 / 8729), BTest (2000), and external Resolver (53).
+* **Disabled Services**: Telnet (23), FTP (21), SSH (22), reverse-poxy (443), API / API-SSL (8728 / 8729), BTest (2000), and external Resolver (53).
 
 <img src="Images/ipservice-ports.jpg" alt="MikroTik Services Hardened" width="250"> 
  
