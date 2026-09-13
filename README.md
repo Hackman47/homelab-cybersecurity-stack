@@ -41,3 +41,10 @@ Here is an overview of the firewall filter rules providing perimeter protection 
 > 
  By enforcing a strict perimeter configuration—blocking unauthorized inbound traffic while explicitly allowing required ICMP, DNS, and dynamic DHCP lease management—the attack surface is eliminated, protecting the router from external compromise.
 
+## 🗺️ Project Roadmap
+
+```mermaid
+timeline
+    title Homelab Security Roadmap
+    Phase 1 : Core Firewall & Hardening : MIT License : Network Baseline
+    Phase 2 : NIDS & Observability : Suricata : Grafana + Loki
