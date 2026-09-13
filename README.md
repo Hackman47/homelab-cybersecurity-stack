@@ -1,9 +1,9 @@
 # <img src="Images/magnifying-glass.jpg" alt="Icon" width="50" style="vertical-align: middle;"> Homelab Cybersecurity Stack
-# <img src="Images/magnifying-glass.jpg" alt="Icon" width="35" style="vertical-align: middle;"> Homelab Cybersecurity Stack
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Platform: MikroTik](https://img.shields.io/badge/Platform-RouterOS-blue.svg)](https://mikrotik.com)
 [![Stack: Security](https://img.shields.io/badge/Stack-Firewall%20%2F%20Hardening-critical.svg)](https://github.com)
+
 A secure repository containing network configurations, security exports, and defensive stack policies for my homelab environment.
 
 ## Objective & Security Rationale
