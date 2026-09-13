@@ -1,4 +1,4 @@
-# Homelab Cybersecurity Stack <img src="Images/magnifying-glass.jpg" alt="Icon" width="50" style="vertical-align: middle;"> 
+# <img src="Images/magnifying-glass.jpg" alt="Icon" width="50" style="vertical-align: middle;"> Homelab Cybersecurity Stack
 
 A secure repository containing network configurations, security exports, and defensive stack policies for my homelab environment.
 
