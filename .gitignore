@@ -1,6 +1,4 @@
-Backup/.DS_Store
-Backup/04Sept.backup
-
-
+# Ignore all backup files and directories universally
 *.backup
+Backup/
 .DS_Store

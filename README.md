@@ -41,3 +41,36 @@ Here is an overview of the firewall filter rules providing perimeter protection 
 > 
  By enforcing a strict perimeter configuration—blocking unauthorized inbound traffic while explicitly allowing required ICMP, DNS, and dynamic DHCP lease management—the attack surface is eliminated, protecting the router from external compromise.
 
+- [x] **Phase 1: Core Foundation & Hardening**
+  - [x] Repository branding & asset management (`Images/`)
+  - [x] Professional header design & tech-stack badges
+  - [x] MIT License integration and legal compliance
+- [ ] **Phase 2: Suricata / Grafana + Loki (NIDS) Setup**
+  - [ ] Deploy Suricata Network Intrusion Detection System
+  - [ ] Configure Loki for centralized log ingestion
+  - [ ] Build Grafana security dashboards for real-time threat intelligence
+
+## 🗺️ Project Roadmap
+
+```mermaid
+timeline
+    title Homelab Security Roadmap
+    Phase 1 : Core Firewall & Hardening : MIT License : Network Baseline
+    Phase 2 : NIDS & Observability : Suricata : Grafana + Loki
+```
+
+## 🤝 Contributing
+
+Contributions, feedback, and security hardening recommendations are welcome! Feel free to open an issue or submit a pull request as the project evolves into Phase 2.
+
+## 📄 License
+
+Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
+
+
+
+  
+
+
+
+
