@@ -57,3 +57,13 @@ timeline
     title Homelab Security Roadmap
     Phase 1 : Core Firewall & Hardening : MIT License : Network Baseline
     Phase 2 : NIDS & Observability : Suricata : Grafana + Loki
+
+---
+
+## 🤝 Contributing
+
+Contributions, feedback, and security hardening recommendations are welcome! Feel free to open an issue or submit a pull request as the project evolves into Phase 2.
+
+## 📄 License
+
+Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
