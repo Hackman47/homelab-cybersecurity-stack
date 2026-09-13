@@ -15,7 +15,7 @@ At a fundamental level, this hardening configuration prevents automated botnet s
 
 Here is an overview of the firewall filter rules providing perimeter protection and traffic segmentation:
 
-![MikroTik Firewall Rules](images/mikrotik-firewall.jpg)
+![MikroTik Firewall Rules](Images/mikrotik-firewall.jpg)
 
 ## Repository Structure
 
