@@ -46,7 +46,7 @@ Disabled high-risk, unencrypted, and unnecessary management services to minimize
 
 * **Disabled Services**: Telnet (23), FTP (21), SSH (22), API / API-SSL (8728 / 8729), BTest (2000), and external Resolver (53).
 
-![MikroTik Services Hardened](./Images/ipservice-ports.jpg) 
+<img src="Images/ipservice-ports.jpg" alt="MikroTik Services Hardened" width="250"> 
  
  By enforcing a strict perimeter configuration—blocking unauthorized inbound traffic while explicitly allowing required ICMP, DNS, and dynamic DHCP lease management—the attack surface is eliminated, protecting the router from external compromise.
 
