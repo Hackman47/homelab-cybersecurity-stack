@@ -37,7 +37,7 @@ Here is an overview of the firewall filter rules providing perimeter protection 
 > 
 > When administrative interfaces and management ports are left exposed without proper firewall filtering, routers experience continuous, automated brute-force attacks. While the log entry below highlights unauthorized login failures via Telnet, similar aggressive scanning and credential-stuffing attempts occur across other exposed ports and services:
 > 
-> <img src="Images/bruteforce.jpg" alt="Botnet Brute-Force Attacks" width="350">
+> <img src="Images/bruteforce.jpg" alt="Botnet Brute-Force Attacks" width="250">
 > 
 
 ## Service Hardening
