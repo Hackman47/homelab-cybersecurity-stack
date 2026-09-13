@@ -43,15 +43,12 @@ Here is an overview of the firewall filter rules providing perimeter protection 
 
 ## 🗺️ Project Roadmap
 
-**Phase 1: Core Foundation & Hardening**
-- Core Firewall & Hardening
-- MIT License & Network Baseline
-- Status: Completed
-
-**Phase 2: NIDS & Observability**
-- Suricata Network Intrusion Detection System
-- Grafana + Loki Log Aggregation
-- Status: Upcoming
+```mermaid
+timeline
+    title Homelab Security Roadmap
+    Phase 1 : Core Firewall & Hardening : MIT License : Network Baseline
+    Phase 2 : NIDS & Observability : Suricata : Grafana + Loki
+```
 
 - [x] **Phase 1: Core Foundation & Hardening**
   - [x] Repository branding & asset management (`Images/`)
@@ -62,12 +59,9 @@ Here is an overview of the firewall filter rules providing perimeter protection 
   - [ ] Configure Loki for centralized log ingestion
   - [ ] Build Grafana security dashboards for real-time threat intelligence
 
----
 
-## 🤝 Contributing
+  
 
-Contributions, feedback, and security hardening recommendations are welcome! Feel free to open an issue or submit a pull request as the project evolves into Phase 2.
 
-## 📄 License
 
-Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
+
