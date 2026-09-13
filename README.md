@@ -39,6 +39,15 @@ Here is an overview of the firewall filter rules providing perimeter protection 
 > 
 > <img src="Images/bruteforce.jpg" alt="Botnet Brute-Force Attacks" width="350">
 > 
+
+## Service Hardening
+
+Disabled high-risk, unencrypted, and unnecessary management services to minimize the router's attack surface:
+
+* **Disabled Services**: Telnet (23), FTP (21), SSH (22), API / API-SSL (8728 / 8729), BTest (2000), and external Resolver (53).
+
+![MikroTik Services Hardened](./Images/ipservice-ports.jpg) 
+ 
  By enforcing a strict perimeter configuration—blocking unauthorized inbound traffic while explicitly allowing required ICMP, DNS, and dynamic DHCP lease management—the attack surface is eliminated, protecting the router from external compromise.
 
 - [x] **Phase 1: Core Foundation & Hardening**
