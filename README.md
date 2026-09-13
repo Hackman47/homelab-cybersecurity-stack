@@ -47,9 +47,10 @@ Disabled high-risk, unencrypted, and unnecessary management services to minimize
  By enforcing a strict perimeter configuration—blocking unauthorized inbound traffic while explicitly allowing required ICMP, DNS, and dynamic DHCP lease management—the attack surface is eliminated, protecting the router from external compromise.
 
 - [x] **Phase 1: Core Foundation & Hardening**
-  - [x] Repository branding & asset management (`Images/`)
-  - [x] Professional header design & tech-stack badges
-  - [x] MIT License integration and legal compliance
+  - [x] Service surface reduction (disabled legacy protocols like telnet, ftp, www, and api)
+  - [x] Secure management restructuring (relocated Winbox to a non-standard port)
+  - [x] Access control list enforcement (restricted router management strictly to trusted subnets via available-from rules)
+  - [x] Perimeter firewall baseline (dropped invalid states and unauthorized unsolicited inbound traffic from WAN) 
 - [ ] **Phase 2: Suricata / Grafana + Loki (NIDS) Setup**
   - [ ] Deploy Suricata Network Intrusion Detection System
   - [ ] Configure Loki for centralized log ingestion
