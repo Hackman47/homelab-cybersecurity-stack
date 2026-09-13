@@ -41,6 +41,15 @@ Here is an overview of the firewall filter rules providing perimeter protection 
 > 
  By enforcing a strict perimeter configuration—blocking unauthorized inbound traffic while explicitly allowing required ICMP, DNS, and dynamic DHCP lease management—the attack surface is eliminated, protecting the router from external compromise.
 
+[x] Phase 1: Core Foundation & Hardening
+[x] Repository branding & asset management (Images/)
+[x] Professional header design & tech-stack badges
+[x] MIT License integration and legal compliance
+[ ] Phase 2: Suricata / Grafana + Loki (NIDS) Setup
+[ ] Deploy Suricata Network Intrusion Detection System
+[ ] Configure Loki for centralized log ingestion
+[ ] Build Grafana security dashboards for real-time threat intelligence
+
 ## 🗺️ Project Roadmap
 
 ```mermaid
