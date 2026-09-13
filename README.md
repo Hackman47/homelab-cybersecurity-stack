@@ -25,11 +25,7 @@ Here is an overview of the firewall filter rules providing perimeter protection 
 
 - `security-lab-export.rsc`: Sanitized MikroTik router configuration export featuring firewall rules, queue trees, interfaces, DHCP, and routing policies.
 
-> **Note: Real-World Threat Landscape**
-> 
-> Before applying perimeter defenses, exposed network services are immediately targeted by automated botnets and malicious scanners across the public internet. 
-> 
-> When administrative interfaces and management ports are left exposed without proper firewall filtering, routers experience continuous, automated brute-force attacks. While the log entry above highlights unauthorized login failures via Telnet, similar aggressive scanning and credential-stuffing attempts occur across other exposed ports and services:
+
 > 
 > > **Note: Real-World Threat Landscape**
 > 
