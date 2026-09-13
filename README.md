@@ -33,7 +33,7 @@ Here is an overview of the firewall filter rules providing perimeter protection 
 > 
 > When administrative interfaces and management ports are left exposed without proper firewall filtering, routers experience continuous, automated brute-force attacks. While the log entry above highlights unauthorized login failures via Telnet, similar aggressive scanning and credential-stuffing attempts occur across other exposed ports and services:
 > 
-> <img src="Images/bruteforce.jpg" alt="Botnet Brute-Force Attacks" width="600">
+> <img src="Images/bruteforce.jpg" alt="Botnet Brute-Force Attacks" width="350">
 > 
 > By enforcing a strict perimeter configuration—blocking unauthorized inbound traffic while explicitly allowing required ICMP, DNS, and dynamic DHCP lease management—the attack surface is eliminated, protecting the router from external compromise.
 > 
