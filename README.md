@@ -58,14 +58,46 @@ Disabled high-risk, unencrypted, and unnecessary management services to minimize
 
 ## 🗺️ Project Roadmap
 
+
+
 ```mermaid
 timeline
     title Homelab Security Roadmap
     Phase 1 : Core Firewall & Hardening : MIT License : Network Baseline
     Phase 2 : NIDS & Observability : Suricata : Grafana + Loki
 ```
+- [x] **Phase 2: Suricata / Grafana + Loki (NIDS) Setup**
+  - [x] Deploy Suricata 8.0.3 Network Intrusion Detection System with MikroTik TZSP capture (`tzsp0`)
+  - [x] Configure complex app-layer definitions (`dnp3`, `modbus`) inside `suricata.yaml`
+  - [x] Integrate Abuse.ch (`feodotracker`, `urlhaus`, `sslbl-blacklist`, `sslbl-ja3`) & Emerging Threats (`et/open`) rules via `suricata-update`
+  - [x] Enable UNIX command socket (`/var/run/suricata/suricata-command.socket`) for zero-downtime live rule reloads (`suricatasc -c reload-rules`)
+  - [x] Configure Loki for centralised `eve.json` log ingestion and storage hygiene (in-place truncation preserving root permissions)
+  - [x] Build Grafana security dashboards for real-time threat intelligence visualisation
 
-## 🤝 Contributing
+### Promtail Configuration Example (`/etc/promtail/promtail-config.yml`)
+
+```yaml
+server:
+  http_listen_port: 9080
+  grpc_listen_port: 0
+
+positions:
+  filename: /tmp/positions.yaml
+
+clients:
+  - url: http://localhost:3100/loki/api/v1/push
+
+scrape_configs:
+  - job_name: suricata
+    static_configs:
+      - targets:
+          - localhost
+        labels:
+          job: suricata
+          __path__: /var/log/suricata/eve.json
+    
+```
+### 🤝 Contributing
 
 Contributions, feedback, and security hardening recommendations are welcome! Feel free to open an issue or submit a pull request as the project evolves into Phase 2.
 
