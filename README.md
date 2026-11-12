@@ -97,7 +97,7 @@ scrape_configs:
           __path__: /var/log/suricata/eve.json
 ```
 <img src="Images/grafana-loki-query.png" alt="Grafana LogQL Query Interface" width="600">
-```
+
 ### 🤝 Contributing
 
 Contributions, feedback, and security hardening recommendations are welcome! Feel free to open an issue or submit a pull request as the project evolves into Phase 2.
