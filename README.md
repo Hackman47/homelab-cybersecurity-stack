@@ -95,7 +95,8 @@ scrape_configs:
         labels:
           job: suricata
           __path__: /var/log/suricata/eve.json
-    
+```
+<img src="Images/grafana-loki-query.png" alt="Grafana LogQL Query Interface" width="600">
 ```
 ### 🤝 Contributing
 
